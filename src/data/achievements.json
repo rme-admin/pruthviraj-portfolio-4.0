@@ -1,0 +1,54 @@
+[
+  {
+    "id": "agrobot-3rd-place",
+    "title": "Agrobot — 3rd Place Award",
+    "summary": "Secured 3rd place for IoT-based agricultural robot at SDM College competition.",
+    "date": "01/2023",
+    "organization": "SDM College Ujire",
+    "description": "Developed Agrobot, an IoT-based agricultural robot for plant health monitoring, disease detection, and automated irrigation. The project was funded by SDM College, Ujire and contributed to improved crop yields, reduced disease spread, and optimised resource management.",
+    "highlights": [
+      "3rd place in college-level competition",
+      "Project funded by SDM College, Ujire",
+      "IoT + ML solution for precision agriculture"
+    ]
+  },
+  {
+    "id": "iasc-fellowship-2025",
+    "title": "IASc-INSA-NASI Summer Research Fellowship 2025",
+    "summary": "Selected for prestigious national summer research fellowship at Indian Academy of Sciences.",
+    "date": "05/2025",
+    "organization": "Indian Academy of Sciences (IASc)",
+    "description": "Awarded the IASc-INSA-NASI Summer Research Fellowship 2025, conducting research on super-resolution imaging using fluorescence spectroscopy at RGIPT, Jais, UP under Dr. Debashis Panda.",
+    "highlights": [
+      "National-level summer research fellowship",
+      "Research at RGIPT under Dr. Debashis Panda",
+      "Python pipeline for SMLM data analysis"
+    ]
+  },
+  {
+    "id": "nptel-functional-materials",
+    "title": "Physics of Functional Materials & Devices",
+    "summary": "NPTEL certification in physics of functional materials and devices.",
+    "date": "2024",
+    "organization": "NPTEL",
+    "description": "Completed NPTEL course on Physics of Functional Materials & Devices, covering semiconductor physics, device fabrication, and characterization techniques relevant to energy applications.",
+    "highlights": [
+      "NPTEL certified course completion",
+      "Functional materials and device physics",
+      "Relevant to hydrogen economy research"
+    ]
+  },
+  {
+    "id": "nptel-neutron-scattering",
+    "title": "Neutron Scattering for Condensed Matter Studies",
+    "summary": "NPTEL certification in neutron scattering techniques for condensed matter physics.",
+    "date": "2024",
+    "organization": "NPTEL",
+    "description": "Completed NPTEL course on Neutron Scattering for Condensed Matter Studies, gaining knowledge of advanced characterization techniques for materials science research.",
+    "highlights": [
+      "NPTEL certified course completion",
+      "Condensed matter characterization techniques",
+      "Advanced materials science knowledge"
+    ]
+  }
+]

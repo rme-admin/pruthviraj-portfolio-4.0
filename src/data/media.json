@@ -1,0 +1,111 @@
+[
+  {
+    "id": "lab-research-1",
+    "title": "Materials Science Lab at MIT Manipal",
+    "src": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1200&q=80",
+    "caption": "Materials science research at MIT Manipal",
+    "alt": "Laboratory research setup",
+    "date": "2025",
+    "location": "MIT Manipal, Karnataka",
+    "summary": "Hands-on thin film synthesis and characterization in the materials science laboratory.",
+    "description": "Working in the materials science laboratory at MIT Manipal on metal chalcogenide thin films for photoelectrochemical applications. This involved thermal evaporation synthesis, structural characterization using XRD and SEM, and electrochemical analysis with EIS and Mott-Schottky techniques.",
+    "highlights": [
+      "Thermal evaporation thin film synthesis",
+      "XRD, SEM, and UV-Vis characterization",
+      "EIS and Mott-Schottky electrochemical analysis",
+      "Integrated experimental and computational workflow"
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1581093458791-9f3c390784fb?w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80"
+    ]
+  },
+  {
+    "id": "hydrogen-energy",
+    "title": "Hydrogen Economy Research",
+    "src": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80",
+    "caption": "Exploring clean hydrogen energy solutions",
+    "alt": "Green energy technology",
+    "date": "2024 — Present",
+    "location": "Manipal, Karnataka",
+    "summary": "Research focused on hydrogen fuel cells and sustainable energy storage systems.",
+    "description": "Exploring innovative solutions for clean energy with emphasis on the hydrogen economy. Research spans PEC water splitting, materials for energy devices, and computational modelling using DFT simulations to validate experimental findings.",
+    "highlights": [
+      "Hydrogen fuel cell applications",
+      "PEC water splitting research",
+      "DFT simulations with Quantum Espresso",
+      "Sustainable energy storage focus"
+    ]
+  },
+  {
+    "id": "microscopy",
+    "title": "Fluorescence Microscopy at RGIPT",
+    "src": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&q=80",
+    "caption": "Fluorescence microscopy at RGIPT",
+    "alt": "Microscopy research",
+    "date": "2025",
+    "location": "RGIPT, Jais, UP",
+    "summary": "Super-resolution imaging using fluorescence spectroscopy and SMLM data analysis.",
+    "description": "Summer research fellowship at RGIPT involving single-molecule localization microscopy (SMLM). Developed a Python pipeline for 2D Gaussian fitting and drift correction, and authored an SOP for a prism-type TIRF microscope.",
+    "highlights": [
+      "Python SMLM analysis pipeline",
+      "pTIRF microscope SOP documentation",
+      "2D Gaussian fitting and drift correction",
+      "IASc-INSA-NASI Summer Research Fellowship"
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80"
+    ]
+  },
+  {
+    "id": "coding",
+    "title": "Full-Stack Development at IR INFOTECH",
+    "src": "https://images.unsplash.com/photo-1461740680684-dccba630e2f6?w=1200&q=80",
+    "caption": "Full-stack development at IR INFOTECH",
+    "alt": "Software development",
+    "date": "2024 — Present",
+    "location": "Remote / Hybrid",
+    "summary": "Building scalable web applications with Next.js, NestJS, and modern deployment pipelines.",
+    "description": "Leading R&D at IR INFOTECH with integration of new tech stacks for client projects. Built the IR INTERNSHIP Portal with responsive Next.js frontend, NestJS REST APIs, and deployment on Vercel and VPS infrastructure.",
+    "highlights": [
+      "Next.js and NestJS full-stack development",
+      "IR INTERNSHIP Portal — end-to-end delivery",
+      "Agile project management and Scrum leadership",
+      "Vercel + VPS deployment architecture"
+    ]
+  },
+  {
+    "id": "conference",
+    "title": "Academic Conference & Presentations",
+    "src": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80",
+    "caption": "Academic conference and presentations",
+    "alt": "Conference presentation",
+    "date": "2023 — 2025",
+    "location": "Various institutions",
+    "summary": "Presenting research findings at academic conferences and institutional seminars.",
+    "description": "Participated in academic conferences presenting work on materials science, hydrogen energy, and computational physics. Engaged with peers and faculty on sustainable energy research and interdisciplinary collaboration opportunities.",
+    "highlights": [
+      "Research presentation experience",
+      "Materials science and energy topics",
+      "Cross-institutional collaboration",
+      "Academic networking and knowledge exchange"
+    ]
+  },
+  {
+    "id": "team-project",
+    "title": "Collaborative Research & Project Work",
+    "src": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
+    "caption": "Collaborative research and project work",
+    "alt": "Team collaboration",
+    "date": "2022 — 2025",
+    "location": "Multiple campuses",
+    "summary": "Team-based research projects spanning Agrobot, thin films, and software development.",
+    "description": "Collaborated with interdisciplinary teams on projects including the Agrobot agricultural robot at SDM College, thin film research at MIT Manipal, and full-stack portal development at IR INFOTECH. These experiences strengthened communication, project coordination, and technical leadership skills.",
+    "highlights": [
+      "Agrobot IoT project — 3rd place award",
+      "Multi-institution research collaboration",
+      "Cross-domain teamwork: hardware + software",
+      "End-to-end project delivery experience"
+    ]
+  }
+]

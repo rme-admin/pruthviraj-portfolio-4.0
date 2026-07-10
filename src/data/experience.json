@@ -1,0 +1,53 @@
+[
+  {
+    "id": "ir-infotech-rnd",
+    "role": "Research and Development Specialist",
+    "company": "IR INFOTECH",
+    "timeline": "August 2024 — Present",
+    "category": "Full-Time",
+    "description": [
+      "Leading the integration of a new tech stack, enabling the team to deliver a wider range of innovative projects.",
+      "Managing the end-to-end project lifecycle from client requirement gathering to deployment.",
+      "Ensuring project progress and timely delivery by implementing Agile methodologies and leading daily Scrum calls."
+    ],
+    "technologies": ["Next.js", "NestJS", "Agile", "Scrum", "Full-Stack Development"]
+  },
+  {
+    "id": "iasc-summer-fellow",
+    "role": "Summer Research Fellow",
+    "company": "IASc-INSA-NASI Summer Research Fellowship 2025, IASc",
+    "timeline": "May 2025 — July 2025",
+    "category": "Fellowship",
+    "description": [
+      "Developed a comprehensive Python pipeline for high-precision single-molecule localization analysis, including 2D Gaussian fitting and drift correction.",
+      "Authored a standard operating procedure for a prism-type Total Internal Reflection Fluorescence (pTIRF) microscope.",
+      "Gained proficiency in operating and analyzing data from UV-Vis, Photoluminescence, and XRD spectrometers."
+    ],
+    "technologies": ["Python", "SMLM", "pTIRF", "UV-Vis", "XRD", "Photoluminescence"]
+  },
+  {
+    "id": "noel-efnmr-intern",
+    "role": "Summer Research Intern",
+    "company": "NOEL-EFNMR Laboratory, AIET",
+    "timeline": "May 2024 — July 2024",
+    "category": "Internship",
+    "description": [
+      "Operated Bruker Alpha-II compact FTIR Spectrometer, Double Beam Spectrometer (UV3200), and Keithley's 2450 Source Meter.",
+      "Conducted polymer synthesis, distillation of chemicals, and high-temperature two-probe setup measurements.",
+      "Performed Gaussian calculations and studied molecular structure using Gaussian09 and IMMM computational facility."
+    ],
+    "technologies": ["FTIR", "UV-Vis", "Gaussian09", "Polymer Synthesis", "DFT"]
+  },
+  {
+    "id": "unifycx-trainee",
+    "role": "Graduate Engineering Trainee",
+    "company": "UnifyCX",
+    "timeline": "October 2023 — February 2024",
+    "category": "Full-Time",
+    "description": [
+      "Handled customer issues related to domain, hosting, and websites.",
+      "Troubleshot website errors and provided support for hosting services."
+    ],
+    "technologies": ["Web Hosting", "DNS", "Domain Management", "Troubleshooting"]
+  }
+]

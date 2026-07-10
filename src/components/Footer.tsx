@@ -1,0 +1,82 @@
+import Link from "next/link";
+import { Code2, Share2, Mail, ArrowUpRight } from "lucide-react";
+import type { SiteSettings } from "@/types";
+
+const navLinks = [
+  { href: "#about", label: "About" },
+  { href: "#experience", label: "Work" },
+  { href: "#projects", label: "Projects" },
+  { href: "#contact", label: "Contact" },
+];
+
+export default function Footer({ contact }: { contact: SiteSettings["contact"] }) {
+  const socialLinks = [
+    { href: `mailto:${contact.email}`, icon: Mail, label: "Email" },
+    { href: "https://github.com", icon: Code2, label: "GitHub" },
+    { href: "https://linkedin.com", icon: Share2, label: "LinkedIn" },
+  ];
+
+  return (
+    <footer className="border-t border-[var(--border)] bg-[var(--bg-elevated)]">
+      <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16">
+        <div className="grid md:grid-cols-3 gap-12">
+          <div>
+            <p className="font-display font-bold text-2xl text-[var(--text-primary)]">
+              Pruthviraj<span className="accent-text">.</span>
+            </p>
+            <p className="text-sm text-[var(--text-muted)] mt-3 leading-relaxed max-w-xs">
+              Physics researcher &amp; developer building at the intersection of materials science and software.
+            </p>
+          </div>
+
+          <div>
+            <p className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--text-muted)] mb-4">Navigate</p>
+            <ul className="space-y-2">
+              {navLinks.map((link) => (
+                <li key={link.href}>
+                  <a href={link.href} className="text-sm text-[var(--text-secondary)] hover:accent-text transition-colors">
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <Link href="/admin/login" className="text-sm text-[var(--text-muted)] hover:accent-text transition-colors">
+                  Admin
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--text-muted)] mb-4">Connect</p>
+            <div className="flex gap-3">
+              {socialLinks.map(({ href, icon: Icon, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-10 h-10 border border-[var(--border)] flex items-center justify-center text-[var(--text-muted)] hover:border-[var(--accent)]/40 hover:accent-text transition-all"
+                >
+                  <Icon size={16} />
+                </a>
+              ))}
+            </div>
+            <a
+              href={`mailto:${contact.email}`}
+              className="inline-flex items-center gap-1 mt-5 text-sm accent-text hover:gap-2 transition-all"
+            >
+              {contact.email} <ArrowUpRight size={14} />
+            </a>
+          </div>
+        </div>
+
+        <div className="divider-line mt-12 mb-6" />
+        <p className="text-xs text-[var(--text-muted)] font-mono-label">
+          &copy; {new Date().getFullYear()} Pruthviraj B. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  );
+}
