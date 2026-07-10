@@ -107,6 +107,7 @@ export interface SiteSettings {
     email: string;
     phone: string;
     location: string;
+    linkedin?: string;
   };
 }
 

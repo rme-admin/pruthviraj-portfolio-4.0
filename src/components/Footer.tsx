@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Code2, Share2, Mail, ArrowUpRight } from "lucide-react";
+import { Code2, Mail, ArrowUpRight } from "lucide-react";
+import LinkedInIcon from "./icons/LinkedInIcon";
 import type { SiteSettings } from "@/types";
 
 const navLinks = [
@@ -10,11 +11,7 @@ const navLinks = [
 ];
 
 export default function Footer({ contact }: { contact: SiteSettings["contact"] }) {
-  const socialLinks = [
-    { href: `mailto:${contact.email}`, icon: Mail, label: "Email" },
-    { href: "https://github.com", icon: Code2, label: "GitHub" },
-    { href: "https://linkedin.com", icon: Share2, label: "LinkedIn" },
-  ];
+  const linkedinUrl = contact.linkedin || "https://www.linkedin.com";
 
   return (
     <footer className="border-t border-[var(--border)] bg-[var(--bg-elevated)]">
@@ -50,18 +47,33 @@ export default function Footer({ contact }: { contact: SiteSettings["contact"] }
           <div>
             <p className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--text-muted)] mb-4">Connect</p>
             <div className="flex gap-3">
-              {socialLinks.map(({ href, icon: Icon, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="w-10 h-10 border border-[var(--border)] flex items-center justify-center text-[var(--text-muted)] hover:border-[var(--accent)]/40 hover:accent-text transition-all"
-                >
-                  <Icon size={16} />
-                </a>
-              ))}
+              <a
+                href={`mailto:${contact.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Email"
+                className="w-10 h-10 border border-[var(--border)] flex items-center justify-center text-[var(--text-muted)] hover:border-[var(--accent)]/40 hover:accent-text transition-all"
+              >
+                <Mail size={16} />
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="w-10 h-10 border border-[var(--border)] flex items-center justify-center text-[var(--text-muted)] hover:border-[var(--accent)]/40 hover:accent-text transition-all"
+              >
+                <Code2 size={16} />
+              </a>
+              <a
+                href={linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="w-10 h-10 border border-[var(--border)] flex items-center justify-center text-[var(--text-muted)] hover:border-[var(--accent)]/40 hover:accent-text transition-all"
+              >
+                <LinkedInIcon size={16} />
+              </a>
             </div>
             <a
               href={`mailto:${contact.email}`}
@@ -73,9 +85,22 @@ export default function Footer({ contact }: { contact: SiteSettings["contact"] }
         </div>
 
         <div className="divider-line mt-12 mb-6" />
-        <p className="text-xs text-[var(--text-muted)] font-mono-label">
-          &copy; {new Date().getFullYear()} Pruthviraj B. All rights reserved.
-        </p>
+
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-[var(--text-muted)] font-mono-label">
+            &copy; {new Date().getFullYear()} Pruthviraj B. All rights reserved.
+          </p>
+          <a
+            href={linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+            className="inline-flex items-center gap-2 text-sm text-[var(--text-muted)] hover:accent-text transition-colors"
+          >
+            <LinkedInIcon size={18} />
+            LinkedIn
+          </a>
+        </div>
       </div>
     </footer>
   );

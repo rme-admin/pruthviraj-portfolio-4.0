@@ -140,7 +140,7 @@ export default function ContentEditor({ type, title, isSiteSettings }: ContentEd
         stats?: { val: string; label: string }[];
       };
       about: { bio: string; skills: string[] };
-      contact: { email: string; phone: string; location: string };
+      contact: { email: string; phone: string; location: string; linkedin?: string };
     };
 
     const statsToLines = (stats: { val: string; label: string }[] = []) =>
@@ -215,6 +215,7 @@ export default function ContentEditor({ type, title, isSiteSettings }: ContentEd
               <Field label="Email" value={site.contact.email} onChange={(v) => updateSiteField("contact", "email", v)} />
               <Field label="Phone" value={site.contact.phone} onChange={(v) => updateSiteField("contact", "phone", v)} />
               <Field label="Location" value={site.contact.location} onChange={(v) => updateSiteField("contact", "location", v)} />
+              <Field label="LinkedIn URL" value={site.contact.linkedin || ""} onChange={(v) => updateSiteField("contact", "linkedin", v)} />
             </div>
           </section>
         </div>
