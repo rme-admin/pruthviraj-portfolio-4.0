@@ -22,30 +22,32 @@
     ]
   },
   "about": {
-    "bio": "Highly motivated Master's candidate committed to the Hydrogen Economy and Sustainable Energy Storage. My technical background integrates rigorous experimental materials science — thin film synthesis techniques, PEC water splitting, EIS, Mott-Schottky, and advanced synthesis — with advanced computational modelling. I possess dual expertise in developing Python codes and executing Density Functional Theory (DFT) simulations (Quantum Espresso). I seek to apply this combined skillset in empirical data validation and computational prediction to complex research challenges in sustainable energy systems.",
+    "bio": "Highly motivated Master's candidate committed to the Hydrogen Economy and Sustainable Energy. My technical background integrates rigorous experimental materials science — thin film synthesis techniques, PEC water splitting, EIS, Mott-Schottky, and advanced synthesis — with advanced computational modelling. I possess dual expertise in developing Python codes and executing Density Functional Theory (DFT) simulations (Quantum Espresso). I seek to apply this combined skillset in empirical data validation and computational prediction to complex research challenges in sustainable energy systems.",
     "skills": {
       "research": [
-        "DFT / Quantum Espresso",
+        "DFT – Quantum Espresso",
         "Thin Film Synthesis",
         "PEC Water Splitting",
         "EIS",
         "Mott-Schottky",
-        "Gaussian",
+        "Gaussian09",
         "FTIR",
         "XRD",
         "SEM",
         "UV-Vis",
-        "LaTeX"
+        "LaTeX",
+        "Thermal Evaporation Unit"
       ],
       "technical": [
         "Python",
+        "C++",
         "Next.js",
         "NestJS",
         "TypeScript",
         "REST APIs",
         "Git",
         "Vercel",
-        "Linux / VPS"
+        "Linux"
       ]
     }
   },
@@ -53,6 +55,6 @@
     "email": "pruthvirajgowda2002@gmail.com",
     "phone": "+91 9980625343",
     "location": "Mangaluru, Karnataka",
-    "linkedin": "https://www.linkedin.com/in/pruthviraj-b"
+    "linkedin": "https://www.linkedin.com/in/pruthvirajb"
   }
 }

@@ -27,7 +27,7 @@
       "Vercel",
       "REST APIs"
     ],
-    "is_featured": "yes"
+    "is_featured": "no"
   },
   {
     "id": "agrobot",
@@ -154,40 +154,6 @@
       "UV-Vis",
       "Gaussian",
       "Polymer Science"
-    ],
-    "is_featured": "no"
-  },
-  {
-    "id": "metal-chalcogenide-thin-films-2",
-    "title": "Investigation on Metal Chalcogenide/Oxide Thin Films for Energy Device Applications",
-    "summary": "Engineered CdS thin films for PEC applications with experimental validation and DFT simulations.",
-    "category": "research",
-    "tags": [
-      "Thesis",
-      "Internship"
-    ],
-    "institution": "MIT Manipal",
-    "date": "10/2025",
-    "guidedBy": "Dr. Raviprakash Y | Professor, Department of Physics, MIT Manipal",
-    "coverImage": "/images/projects/test.png",
-    "gallery": [
-      "/images/projects/test.png"
-    ],
-    "description": "Engineered and optimised metal chalcogenide thin films CdS using thermal evaporation in a high-vacuum system to systematically control film thickness and doping concentration. Quantification of material suitability for Photoelectrochemical (PEC) applications through rigorous structural (XRD, SEM, UV-Vis) and electrochemical (EIS, Mott-Schottky) analysis. Validation of experimental results and prediction of charge carrier transport mechanisms by executing Density Functional Theory (DFT) simulations using the Quantum Espresso software package.",
-    "highlights": [
-      "Thermal evaporation synthesis of CdS thin films in high-vacuum system",
-      "Structural characterization via XRD, SEM, and UV-Vis spectroscopy",
-      "Electrochemical analysis using EIS and Mott-Schottky techniques",
-      "DFT simulations with Quantum Espresso for charge carrier transport"
-    ],
-    "technologies": [
-      "Quantum Espresso",
-      "DFT",
-      "XRD",
-      "SEM",
-      "EIS",
-      "PEC",
-      "Python"
     ],
     "is_featured": "no"
   }
