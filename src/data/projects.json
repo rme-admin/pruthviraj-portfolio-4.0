@@ -9,9 +9,9 @@
     ],
     "institution": "IR INFOTECH",
     "date": "03/2025",
-    "coverImage": "/images/projects/test.png",
+    "coverImage": "/images/image-not-found.png",
     "gallery": [
-      "/images/projects/test.png"
+      "/images/image-not-found.png"
     ],
     "description": "Designed and planned the user interface (UI), developed the responsive frontend using Next.js, engineered robust RESTful APIs with NestJS, and managed full-stack project deployment utilizing Vercel for the frontend and a VPS server for the backend to ensure high availability and performance.",
     "highlights": [
@@ -40,9 +40,9 @@
     ],
     "institution": "SDM College Ujire",
     "date": "01/2023",
-    "coverImage": "/images/projects/test.png",
+    "coverImage": "/images/image-not-found.png",
     "gallery": [
-      "/images/projects/test.png"
+      "/images/image-not-found.png"
     ],
     "description": "Developed an IoT-based agricultural robot, Agrobot, designed to monitor plant health, detect diseases using machine learning and image processing, send notifications to farmers, and automate irrigation. Additionally, Agrobot measured humidity, temperature, and pH levels of the soil. Secured 3rd place in the competition. The project was funded by SDM College, Ujire.",
     "highlights": [
@@ -72,9 +72,11 @@
     "institution": "MIT Manipal",
     "date": "10/2025",
     "guidedBy": "Dr. Raviprakash Y | Professor, Department of Physics, MIT Manipal",
-    "coverImage": "/images/projects/test.png",
+    "coverImage": "/images/projects/msc-thesis.jpeg",
     "gallery": [
-      "/images/projects/test.png"
+      "/images/projects/msc-thesis.jpeg",
+      "/images/projects/msc-thesis-title.jpeg",
+      "/images/projects/msc-thesis-presentation.png"
     ],
     "description": "Engineered and optimised metal chalcogenide thin films CdS using thermal evaporation in a high-vacuum system to systematically control film thickness and doping concentration. Quantification of material suitability for Photoelectrochemical (PEC) applications through rigorous structural (XRD, SEM, UV-Vis) and electrochemical (EIS, Mott-Schottky) analysis. Validation of experimental results and prediction of charge carrier transport mechanisms by executing Density Functional Theory (DFT) simulations using the Quantum Espresso software package.",
     "highlights": [
@@ -106,9 +108,12 @@
     "institution": "RGIPT, Jais, UP",
     "date": "09/2025",
     "guidedBy": "Dr. Debashis Panda | Associate Professor, Department of Chemistry, RGIPT",
-    "coverImage": "/images/projects/test.png",
+    "coverImage": "/images/projects/rgipt-a",
     "gallery": [
-      "/images/projects/test.png"
+      "/images/milestones/rgipt-a.jpg",
+      "/images/milestones/rgipt-b.jpg",
+      "/images/milestones/rgipt-c.jpg",
+      "/images/milestones/rgipt-campus.jpg"
     ],
     "description": "Utilized Python to develop a comprehensive software pipeline for high-precision single-molecule localization microscopy (SMLM) data, incorporating 2D Gaussian fitting, background subtraction, and multi-stage drift correction to produce super-resolved datasets. Authored a comprehensive standard operating procedure for a prism-type Total Internal Reflection Fluorescence (pTIRF) microscope.",
     "highlights": [
@@ -137,9 +142,10 @@
     "institution": "AIET, Moodabidri",
     "date": "07/2024",
     "guidedBy": "Dr. Ramprasadh | Head of Department of Physics, AIET, Moodbidri",
-    "coverImage": "/images/projects/test.png",
+    "coverImage": "/images/projects/noel-efnmr-a.jpg",
     "gallery": [
-      "/images/projects/test.png"
+      "/images/projects/noel-efnmr-b.jpg",
+      "/images/projects/noel-efnmr-c.jpg"
     ],
     "description": "Synthesized and characterized Pani-g-Chitosan/PVA conducting polymer films (50:50 Chitosan:PVA ratio) during an internship at NOEL-EFNMR Laboratory. Applied computational physics techniques through DFT calculations on the chitin molecular structure. Utilized FTIR, UV-Vis, and IV characterization techniques.",
     "highlights": [

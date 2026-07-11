@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, Calendar, Building2 } from "lucide-react";
 import { getProjectById } from "@/lib/content";
 import Panel from "@/components/Panel";
+import MasonryGallery from "@/components/MasonryGallery";
 
 export const dynamic = "force-dynamic";
 
@@ -113,43 +114,8 @@ export default async function ProjectDetailPage({
                 <h2 className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--text-muted)] mb-4">
                   Project Images
                 </h2>
-                <div className="flex gap-3 mb-10">
-                  {/* Left column — images at even indices (0, 2, 4…) */}
-                  <div className="flex-1 flex flex-col gap-3">
-                    {project.gallery
-                      .filter((_, i) => i % 2 === 0)
-                      .map((src, i) => (
-                        <div key={i} className="border border-[var(--border)] overflow-hidden">
-                          <Image
-                            src={src}
-                            alt={`${project.title} image ${i * 2 + 1}`}
-                            width={0}
-                            height={0}
-                            sizes="(max-width: 768px) 100vw, 400px"
-                            style={{ width: "100%", height: "auto" }}
-                            className="block hover:scale-105 transition-transform duration-500"
-                          />
-                        </div>
-                      ))}
-                  </div>
-                  {/* Right column — images at odd indices (1, 3…) */}
-                  <div className="flex-1 flex flex-col gap-3">
-                    {project.gallery
-                      .filter((_, i) => i % 2 !== 0)
-                      .map((src, i) => (
-                        <div key={i} className="border border-[var(--border)] overflow-hidden">
-                          <Image
-                            src={src}
-                            alt={`${project.title} image ${i * 2 + 2}`}
-                            width={0}
-                            height={0}
-                            sizes="(max-width: 768px) 100vw, 400px"
-                            style={{ width: "100%", height: "auto" }}
-                            className="block hover:scale-105 transition-transform duration-500"
-                          />
-                        </div>
-                      ))}
-                  </div>
+                <div className="mb-10">
+                  <MasonryGallery images={project.gallery} altPrefix={project.title} />
                 </div>
               </>
             )}
