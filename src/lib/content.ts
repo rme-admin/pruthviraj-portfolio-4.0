@@ -60,8 +60,25 @@ export async function getProjects(): Promise<Project[]> {
   );
 }
 
+const MONTH_MAP: Record<string, number> = {
+  january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
+  july: 7, august: 8, september: 9, october: 10, november: 11, december: 12,
+};
+
+/** Parses "Month YYYY — ..." timeline strings into a sortable number (YYYYMM). */
+function parseTimelineStart(timeline: string): number {
+  const match = timeline.match(/^([A-Za-z]+)\s+(\d{4})/);
+  if (!match) return 0;
+  const month = MONTH_MAP[match[1].toLowerCase()] ?? 0;
+  const year = parseInt(match[2], 10);
+  return year * 100 + month;
+}
+
 export async function getExperience(): Promise<Experience[]> {
-  return readJson<Experience[]>(FILE_MAP.experience);
+  const experience = await readJson<Experience[]>(FILE_MAP.experience);
+  return experience.sort(
+    (a, b) => parseTimelineStart(b.timeline) - parseTimelineStart(a.timeline)
+  );
 }
 
 export async function getAchievements(): Promise<Achievement[]> {

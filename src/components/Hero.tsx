@@ -102,7 +102,7 @@ export default function Hero({ hero, contact }: HeroProps) {
               <a href="#projects" className="btn-primary">
                 View My Work
               </a>
-              <a href="#" className="btn-ghost">
+              <a href="/docs/resume.pdf" className="btn-ghost">
                 <Download size={16} />
                 Resume
               </a>

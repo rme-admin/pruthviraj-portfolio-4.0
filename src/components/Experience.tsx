@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, MapPin } from "lucide-react";
 import type { Experience as ExperienceType } from "@/types";
 import Panel from "./Panel";
 import SectionHeading from "./SectionHeading";
@@ -28,6 +28,12 @@ function ExperienceItem({ exp, index }: { exp: ExperienceType; index: number }) 
                 {exp.role}
               </h3>
               <p className="text-[var(--text-muted)] text-sm mt-0.5">{exp.company}</p>
+              {exp.location && (
+                <p className="flex items-center gap-1.5 text-xs text-[var(--text-muted)] mt-1 opacity-70">
+                  <MapPin size={11} className="accent-text shrink-0" />
+                  {exp.location}
+                </p>
+              )}
             </div>
             <div className="flex items-center gap-3 shrink-0">
               <span className="tag tag-accent">{exp.category}</span>

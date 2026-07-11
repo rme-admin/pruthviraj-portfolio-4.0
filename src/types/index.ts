@@ -37,6 +37,7 @@ export interface Experience {
   role: string;
   company: string;
   timeline: string;
+  location: string;
   category: EmploymentCategory;
   description: string[];
   technologies: string[];
