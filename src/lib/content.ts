@@ -34,8 +34,30 @@ async function writeJson<T>(filename: string, data: T): Promise<void> {
   await writeFile(filePath, JSON.stringify(data, null, 2) + "\n", "utf-8");
 }
 
+
+/**
+ * Parses portfolio date strings into a numeric timestamp for sorting.
+ * Handles both "MM/YYYY" and plain "YYYY" formats.
+ * Returns a value where larger = more recent.
+ */
+function parseDateToTimestamp(date: string): number {
+  if (/^\d{2}\/\d{4}$/.test(date)) {
+    // "MM/YYYY"
+    const [month, year] = date.split("/").map(Number);
+    return year * 100 + month;
+  }
+  if (/^\d{4}$/.test(date)) {
+    // "YYYY" — treat as December so a full-year entry isn't penalised vs a MM/YYYY entry
+    return Number(date) * 100 + 12;
+  }
+  return 0;
+}
+
 export async function getProjects(): Promise<Project[]> {
-  return readJson<Project[]>(FILE_MAP.projects);
+  const projects = await readJson<Project[]>(FILE_MAP.projects);
+  return projects.sort(
+    (a, b) => parseDateToTimestamp(b.date) - parseDateToTimestamp(a.date)
+  );
 }
 
 export async function getExperience(): Promise<Experience[]> {
@@ -43,7 +65,10 @@ export async function getExperience(): Promise<Experience[]> {
 }
 
 export async function getAchievements(): Promise<Achievement[]> {
-  return readJson<Achievement[]>(FILE_MAP.achievements);
+  const achievements = await readJson<Achievement[]>(FILE_MAP.achievements);
+  return achievements.sort(
+    (a, b) => parseDateToTimestamp(b.date) - parseDateToTimestamp(a.date)
+  );
 }
 
 export async function getEducation(): Promise<Education[]> {

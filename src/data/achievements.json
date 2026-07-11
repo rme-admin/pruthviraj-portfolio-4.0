@@ -17,10 +17,10 @@
     "id": "nptel-functional-materials",
     "title": "Physics of Functional Materials & Devices",
     "summary": "NPTEL certification in physics of functional materials and devices.",
-    "date": "2025",
+    "date": "10/2025",
     "organization": "NPTEL",
-    "coverImage": "/images/achievements/test.png",
-    "description": "Completed NPTEL course on Physics of Functional Materials & Devices, covering semiconductor physics, device fabrication, and characterization techniques relevant to energy applications.",
+    "coverImage": "/images/achievements/Physics of Functional Materials.png",
+    "description": "The development of next generation smart and functional devices is directly linked with the ability to tailor novel materials ranging from ceramics, composites, polymers to glasses. The synthesis protocols for obtaining these materials have been extensively investigated over the last few decades. But, as the morphology and crystal structures changes, the physical response of the materials varies significantly. Therefore, it is imperative to understand in the detail the structure-property relation in materials before their end application can be envisaged. Once the materials are characterized, their response characteristics, under various conditions, must be understood in detail. Finally, the choice of material for a particular device in a non-trivial exercise. This can only be made by trained scientists/ engineers, who have the ability to understand the limitations of materials and devices alongwith the demands of the end users. These aspects will be covered in this course.",
     "highlights": [
       "12 week course NPTEL certified course completion",
       "Functional materials and device physics"
@@ -29,10 +29,10 @@
   {
     "id": "nptel-neutron-scattering",
     "title": "Neutron Scattering for Condensed Matter Studies",
-    "summary": "NPTEL certification in neutron scattering techniques for condensed matter physics.",
-    "date": "2025",
+    "summary": "The short-range strong interaction of neutron with matter and the inherent magnetic moment of neutron, makes neutron scattering a unique probe in condensed matter research. An important advantage of neutrons is that they carry no charge   and can penetrate the bulk of materials. They interact via strong force with the nuclei of the material and the scattering cross section varies randomly between various elements and even between two isotopes of the same element. This allows one to observe light atoms such as hydrogen in the presence of heavier ones and distinguish neighbouring elements in the periodic table easily. Notably, hydrogen and deuterium have large contrast with respect to neutrons. One can exploit isotopic substitution and contrast variation methods in such studies. Since neutron also carries a magnetic moment of -1.91μN, it also interacts with magnetic moment in atoms, making it a unique probe for determination of microscopic magnetic structure.  Wavelength and energy of thermal neutron match with the lattice spacing and excitations in condensed matter and makes it an indispensable tool to study both structure and dynamics in condensed matter. Using neutron scattering techniques with varying momentum transfer and energy transfer range and resolution one is capable or understanding structure and dynamics in materials at various length and time  scales",
+    "date": "10/2025",
     "organization": "NPTEL",
-    "coverImage": "/images/achievements/test.png",
+    "coverImage": "/images/achievements/Neutron Scattering for Condensed Matter Studies.png",
     "description": "Completed NPTEL course on Neutron Scattering for Condensed Matter Studies, gaining knowledge of advanced characterization techniques for materials science research.",
     "highlights": [
       "12 week NPTEL certified course completion",
@@ -52,6 +52,49 @@
       "3rd place in college-level competition",
       "Project funded by SDM College, Ujire",
       "IoT + ML solution for precision agriculture"
+    ]
+  },
+  {
+    "id": "phy-intro",
+    "title": "How Things Work: An Introduction to Physics",
+    "summary": "An introduction to physics in the context of everyday objects.",
+    "date": "04/2022",
+    "organization": "University of Virginia (Coursera)",
+    "coverImage": "/images/achievements/7ZPB5GLGVLYF.png",
+    "description": "How Things Work: An Introduction to Physics is an intermediate University of Virginia course that introduces physics through everyday objects and situations. It covers topics like mechanics, torque, and experimentation across 8 weeks with 47 videos.",
+    "highlights": [
+      "Taught physics through everyday objects, making abstract concepts more concrete.",
+      "Covered core topics like Physics, Torque, Mechanics, Physical Science, and Experimentation.",
+      "Completed 8-week intermediate course with 47 videos from the University of Virginia."
+    ]
+  },
+  {
+    "id": "calculus-intro",
+    "title": "Introduction to Calculus",
+    "summary": "It’s a solid 28-hour course from the University of Sydney that builds the core calculus foundation step by step, starting with precalculus and ending with integral calculus.",
+    "date": "05/2022",
+    "organization": "University of Sydney (Coursera)",
+    "coverImage": "/images/achievements/8TGCDGVWHWQR.png",
+    "description": "The course moves from equations and elementary functions into tangents, limits, derivatives, and integrals. It balances theory with applications, so it feels practical rather than purely abstract",
+    "highlights": [
+      "This course covered Derivatives, Geometry, Graphing, Trigonometry, Algebra, Integral Calculus",
+      "Clear progression from precalculus to differential and integral calculus",
+      "Strong focus on derivatives, graphing, algebra, trigonometry, and geometry"
+    ]
+  },
+  {
+    "id": "intro-mol-spectroscopy",
+    "title": "Introduction to Molecular Spectroscopy",
+    "summary": "An introduction to molecular spectroscopy.",
+    "date": "06/2024",
+    "organization": "University of Manchester",
+    "coverImage": "/images/achievements/88LYTUJ5NV76.png",
+    "description": "The course introduces the three key spectroscopic methods used by chemists and biochemists to analyse the molecular and electronic structure of atoms and molecules. These are UV/Visible , Infra-red (IR) and Nuclear Magnetic Resonance (NMR) spectroscopies. The content is presented using short focussed and interactive screencast presentations accompanied by formative quizzes to probe understanding of the key concepts presented. Numerous exercises are provided to facilitate mastery of each topic. A unique virtual spectroscopic laboratory is made available to enable students to measure and analyse spectra online. Assessment is via summative quizzes completed during the course period.",
+    "highlights": [
+      "Studied UV/Visible spectroscopy for analyzing electronic transitions in molecules.",
+      "Learned the principles and applications of infrared (IR) spectroscopy.",
+      "Covered nuclear magnetic resonance (NMR) spectroscopy for structural analysis.",
+      "Practiced interpreting molecular spectra using online exercises and virtual lab activities."
     ]
   }
 ]
