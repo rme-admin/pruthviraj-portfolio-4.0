@@ -5,6 +5,7 @@
     "summary": "Secured 3rd place for IoT-based agricultural robot at SDM College competition.",
     "date": "01/2023",
     "organization": "SDM College Ujire",
+    "coverImage": "/images/achievements/test.png",
     "description": "Developed Agrobot, an IoT-based agricultural robot for plant health monitoring, disease detection, and automated irrigation. The project was funded by SDM College, Ujire and contributed to improved crop yields, reduced disease spread, and optimised resource management.",
     "highlights": [
       "3rd place in college-level competition",
@@ -18,6 +19,7 @@
     "summary": "Selected for prestigious national summer research fellowship at Indian Academy of Sciences.",
     "date": "05/2025",
     "organization": "Indian Academy of Sciences (IASc)",
+    "coverImage": "/images/achievements/test.png",
     "description": "Awarded the IASc-INSA-NASI Summer Research Fellowship 2025, conducting research on super-resolution imaging using fluorescence spectroscopy at RGIPT, Jais, UP under Dr. Debashis Panda.",
     "highlights": [
       "National-level summer research fellowship",
@@ -31,6 +33,7 @@
     "summary": "NPTEL certification in physics of functional materials and devices.",
     "date": "2024",
     "organization": "NPTEL",
+    "coverImage": "/images/achievements/test.png",
     "description": "Completed NPTEL course on Physics of Functional Materials & Devices, covering semiconductor physics, device fabrication, and characterization techniques relevant to energy applications.",
     "highlights": [
       "NPTEL certified course completion",
@@ -44,6 +47,7 @@
     "summary": "NPTEL certification in neutron scattering techniques for condensed matter physics.",
     "date": "2024",
     "organization": "NPTEL",
+    "coverImage": "/images/achievements/test.png",
     "description": "Completed NPTEL course on Neutron Scattering for Condensed Matter Studies, gaining knowledge of advanced characterization techniques for materials science research.",
     "highlights": [
       "NPTEL certified course completion",

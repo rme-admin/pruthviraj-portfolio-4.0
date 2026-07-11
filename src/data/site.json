@@ -1,40 +1,58 @@
 {
   "hero": {
     "name": "Pruthviraj B",
-    "tagline": "Exploring innovative solutions for clean energy with a focus on hydrogen fuel cells.",
+    "tagline": "Exploring innovative solutions for clean energy with a focus on hydrogen.",
     "badge": "Hydrogen Economy & Sustainable Energy",
     "focusArea": "Materials Science & Clean Energy",
-    "status": "MSc Physics — MIT Manipal",
-    "statusNote": "Open to research collaborations",
+    "status": "MSc Physics Graduate",
+    "statusNote": "Open to industrial and research opportunities",
     "stats": [
-      { "val": "5+", "label": "Projects" },
-      { "val": "4+", "label": "Years" },
-      { "val": "2", "label": "Domains" }
+      {
+        "val": "5+",
+        "label": "Projects"
+      },
+      {
+        "val": "4+",
+        "label": "Years"
+      },
+      {
+        "val": "3+",
+        "label": "Domains"
+      }
     ]
   },
   "about": {
     "bio": "Highly motivated Master's candidate committed to the Hydrogen Economy and Sustainable Energy Storage. My technical background integrates rigorous experimental materials science — thin film synthesis techniques, PEC water splitting, EIS, Mott-Schottky, and advanced synthesis — with advanced computational modelling. I possess dual expertise in developing Python codes and executing Density Functional Theory (DFT) simulations (Quantum Espresso). I seek to apply this combined skillset in empirical data validation and computational prediction to complex research challenges in sustainable energy systems.",
-    "skills": [
-      "Python",
-      "DFT / Quantum Espresso",
-      "Next.js",
-      "NestJS",
-      "Thin Film Synthesis",
-      "PEC Water Splitting",
-      "EIS",
-      "Mott-Schottky",
-      "Gaussian",
-      "LaTeX",
-      "FTIR",
-      "XRD",
-      "SEM",
-      "UV-Vis"
-    ]
+    "skills": {
+      "research": [
+        "DFT / Quantum Espresso",
+        "Thin Film Synthesis",
+        "PEC Water Splitting",
+        "EIS",
+        "Mott-Schottky",
+        "Gaussian",
+        "FTIR",
+        "XRD",
+        "SEM",
+        "UV-Vis",
+        "LaTeX"
+      ],
+      "technical": [
+        "Python",
+        "Next.js",
+        "NestJS",
+        "TypeScript",
+        "REST APIs",
+        "Git",
+        "Vercel",
+        "Linux / VPS"
+      ]
+    }
   },
   "contact": {
     "email": "pruthvirajgowda2002@gmail.com",
     "phone": "+91 9980625343",
-    "location": "Manipal, Karnataka",
+    "location": "Mangaluru, Karnataka",
     "linkedin": "https://www.linkedin.com/in/pruthviraj-b"
   }
 }

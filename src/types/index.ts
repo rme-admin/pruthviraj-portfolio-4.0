@@ -22,6 +22,7 @@ export interface Project {
   coverImage?: string;
   gallery?: string[];
   documentUrl?: string;
+  is_featured?: "yes" | "no";
 }
 
 export type EmploymentCategory =
@@ -49,6 +50,7 @@ export interface Achievement {
   organization: string;
   description: string;
   highlights: string[];
+  coverImage?: string;
   documentUrl?: string;
 }
 
@@ -73,15 +75,19 @@ export interface Reference {
 export interface MediaItem {
   id: string;
   title: string;
-  src: string;
-  caption: string;
-  alt: string;
   date: string;
-  location: string;
+  tags: string[];
   summary: string;
-  description: string;
-  highlights: string[];
+  content: string;
+  coverImage?: string;
   gallery?: string[];
+  // legacy fields kept for backwards compat
+  src?: string;
+  caption?: string;
+  alt?: string;
+  location?: string;
+  highlights?: string[];
+  description?: string;
 }
 
 export interface HeroStat {
@@ -101,7 +107,10 @@ export interface SiteSettings {
   };
   about: {
     bio: string;
-    skills: string[];
+    skills: {
+      research: string[];
+      technical: string[];
+    };
   };
   contact: {
     email: string;

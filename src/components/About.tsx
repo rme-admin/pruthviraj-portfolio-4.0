@@ -25,15 +25,22 @@ function SkillsList({ skills }: { skills: string[] }) {
   );
 }
 
+function CategoryLabel({ label }: { label: string }) {
+  return (
+    <p className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--accent)] mb-4">
+      {label}
+    </p>
+  );
+}
+
 export default function About({ about }: AboutProps) {
-  const half = Math.ceil(about.skills.length / 2);
-  const col1 = about.skills.slice(0, half);
-  const col2 = about.skills.slice(half);
+  const researchSkills = about.skills.research;
+  const technicalSkills = about.skills.technical;
 
   return (
     <section id="about" className="py-28 border-t border-[var(--border)]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
-        {/* Mobile & tablet — single card, two columns, wraps on very small screens */}
+        {/* Mobile & tablet — single card */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -54,14 +61,15 @@ export default function About({ about }: AboutProps) {
                 {about.bio}
               </p>
 
-              {/* Skills column — two sub-columns, stacks on very small */}
-              <div>
-                <p className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--text-muted)] mb-4">
-                  Technical Arsenal
-                </p>
-                <div className="grid grid-cols-2 max-[360px]:grid-cols-1 gap-x-6 gap-y-0">
-                  <SkillsList skills={col1} />
-                  <SkillsList skills={col2} />
+              {/* Skills column — two categories */}
+              <div className="space-y-6">
+                <div>
+                  <CategoryLabel label="Research Skills" />
+                  <SkillsList skills={researchSkills} />
+                </div>
+                <div>
+                  <CategoryLabel label="Technical Skills" />
+                  <SkillsList skills={technicalSkills} />
                 </div>
               </div>
             </div>
@@ -93,17 +101,16 @@ export default function About({ about }: AboutProps) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
+              className="grid sm:grid-cols-2 gap-3"
             >
-              <p className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--text-muted)] mb-5">
-                Technical Arsenal
-              </p>
-              <div className="grid sm:grid-cols-2 gap-3">
-                {[col1, col2].map((col, ci) => (
-                  <Panel key={ci} hover={false} className="p-5">
-                    <SkillsList skills={col} />
-                  </Panel>
-                ))}
-              </div>
+              <Panel hover={false} className="p-5">
+                <CategoryLabel label="Research Skills" />
+                <SkillsList skills={researchSkills} />
+              </Panel>
+              <Panel hover={false} className="p-5">
+                <CategoryLabel label="Technical Skills" />
+                <SkillsList skills={technicalSkills} />
+              </Panel>
             </motion.div>
           </div>
         </div>

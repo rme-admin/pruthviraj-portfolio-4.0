@@ -1,18 +1,18 @@
 [
   {
-    "id": "dr-shashi-kumar",
-    "name": "Dr. Shashi Kumar K",
-    "title": "Associate Professor, Physics at AIET, Moodabidri, Karnataka, India",
-    "role": "Internship Supervisor",
-    "email": "drskumarphy@aiet.org.in",
-    "phone": "+91 897182602"
-  },
-  {
     "id": "dr-raviprakash",
     "name": "Dr. Raviprakash Y",
     "title": "Professor, Physics at Manipal Institute of Technology, Manipal",
     "role": "Project Supervisor",
     "email": "raviprakash.y@manipal.edu",
     "phone": "+91 9448215078"
+  },
+  {
+    "id": "dr-shashi-kumar",
+    "name": "Dr. Shashi Kumar K",
+    "title": "Associate Professor, Physics at AIET, Moodabidri, Karnataka, India",
+    "role": "Internship Supervisor",
+    "email": "drskumarphy@aiet.org.in",
+    "phone": "+91 897182602"
   }
 ]

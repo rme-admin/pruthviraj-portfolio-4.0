@@ -4,13 +4,14 @@
     "title": "IR INTERNSHIP Portal",
     "summary": "Full-stack internship management portal with responsive Next.js frontend and NestJS REST APIs.",
     "category": "technical",
-    "tags": ["Personal Project"],
+    "tags": [
+      "Personal Project"
+    ],
     "institution": "IR INFOTECH",
     "date": "03/2025",
-    "coverImage": "https://images.unsplash.com/photo-1461740680684-dccba630e2f6?w=1200&q=80",
+    "coverImage": "/images/projects/test.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80"
+      "/images/projects/test.png"
     ],
     "description": "Designed and planned the user interface (UI), developed the responsive frontend using Next.js, engineered robust RESTful APIs with NestJS, and managed full-stack project deployment utilizing Vercel for the frontend and a VPS server for the backend to ensure high availability and performance.",
     "highlights": [
@@ -19,20 +20,29 @@
       "Engineered robust RESTful APIs with NestJS",
       "Managed full-stack deployment on Vercel and VPS"
     ],
-    "technologies": ["Next.js", "NestJS", "TypeScript", "Vercel", "REST APIs"]
+    "technologies": [
+      "Next.js",
+      "NestJS",
+      "TypeScript",
+      "Vercel",
+      "REST APIs"
+    ],
+    "is_featured": "yes"
   },
   {
     "id": "agrobot",
     "title": "Agrobot — An Agricultural Robot",
     "summary": "IoT-based agricultural robot for plant health monitoring, disease detection, and automated irrigation.",
     "category": "technical",
-    "tags": ["Award", "Personal Project"],
+    "tags": [
+      "Award",
+      "Personal Project"
+    ],
     "institution": "SDM College Ujire",
     "date": "01/2023",
-    "coverImage": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80",
+    "coverImage": "/images/projects/test.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1574943320215-7d0f73978175?w=800&q=80",
-      "https://images.unsplash.com/photo-1530836369250-38872d771096?w=800&q=80"
+      "/images/projects/test.png"
     ],
     "description": "Developed an IoT-based agricultural robot, Agrobot, designed to monitor plant health, detect diseases using machine learning and image processing, send notifications to farmers, and automate irrigation. Additionally, Agrobot measured humidity, temperature, and pH levels of the soil. Secured 3rd place in the competition. The project was funded by SDM College, Ujire.",
     "highlights": [
@@ -41,22 +51,30 @@
       "Automated irrigation with soil pH, humidity, and temperature sensing",
       "Secured 3rd place — funded by SDM College, Ujire"
     ],
-    "technologies": ["IoT", "Machine Learning", "Image Processing", "Python", "Arduino"]
+    "technologies": [
+      "IoT",
+      "Machine Learning",
+      "Image Processing",
+      "Python",
+      "Arduino"
+    ],
+    "is_featured": "no"
   },
   {
     "id": "metal-chalcogenide-thin-films",
     "title": "Investigation on Metal Chalcogenide/Oxide Thin Films for Energy Device Applications",
     "summary": "Engineered CdS thin films for PEC applications with experimental validation and DFT simulations.",
     "category": "research",
-    "tags": ["Thesis", "Internship"],
+    "tags": [
+      "Thesis",
+      "Internship"
+    ],
     "institution": "MIT Manipal",
     "date": "10/2025",
     "guidedBy": "Dr. Raviprakash Y | Professor, Department of Physics, MIT Manipal",
-    "coverImage": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1200&q=80",
+    "coverImage": "/images/projects/test.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1581093458791-9f3c390784fb?w=800&q=80",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80"
+      "/images/projects/test.png"
     ],
     "description": "Engineered and optimised metal chalcogenide thin films CdS using thermal evaporation in a high-vacuum system to systematically control film thickness and doping concentration. Quantification of material suitability for Photoelectrochemical (PEC) applications through rigorous structural (XRD, SEM, UV-Vis) and electrochemical (EIS, Mott-Schottky) analysis. Validation of experimental results and prediction of charge carrier transport mechanisms by executing Density Functional Theory (DFT) simulations using the Quantum Espresso software package.",
     "highlights": [
@@ -65,21 +83,32 @@
       "Electrochemical analysis using EIS and Mott-Schottky techniques",
       "DFT simulations with Quantum Espresso for charge carrier transport"
     ],
-    "technologies": ["Quantum Espresso", "DFT", "XRD", "SEM", "EIS", "PEC", "Python"]
+    "technologies": [
+      "Quantum Espresso",
+      "DFT",
+      "XRD",
+      "SEM",
+      "EIS",
+      "PEC",
+      "Python"
+    ],
+    "is_featured": "yes"
   },
   {
     "id": "super-resolution-imaging",
     "title": "Super Resolution Imaging using Fluorescence Spectroscopy",
     "summary": "Python pipeline for single-molecule localization microscopy with pTIRF microscope SOP.",
     "category": "research",
-    "tags": ["Internship", "Published"],
+    "tags": [
+      "Internship",
+      "Published"
+    ],
     "institution": "RGIPT, Jais, UP",
     "date": "09/2025",
     "guidedBy": "Dr. Debashis Panda | Associate Professor, Department of Chemistry, RGIPT",
-    "coverImage": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&q=80",
+    "coverImage": "/images/projects/test.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1532187863486-abf9db3811c0?w=800&q=80",
-      "https://images.unsplash.com/photo-1507413245164-6160d8298e16?w=800&q=80"
+      "/images/projects/test.png"
     ],
     "description": "Utilized Python to develop a comprehensive software pipeline for high-precision single-molecule localization microscopy (SMLM) data, incorporating 2D Gaussian fitting, background subtraction, and multi-stage drift correction to produce super-resolved datasets. Authored a comprehensive standard operating procedure for a prism-type Total Internal Reflection Fluorescence (pTIRF) microscope.",
     "highlights": [
@@ -88,20 +117,29 @@
       "Authored SOP for prism-type TIRF microscope",
       "Data analysis using Origin and Olympus IX73 Microscope"
     ],
-    "technologies": ["Python", "SMLM", "pTIRF", "Origin", "Olympus IX73"]
+    "technologies": [
+      "Python",
+      "SMLM",
+      "pTIRF",
+      "Origin",
+      "Olympus IX73"
+    ],
+    "is_featured": "no"
   },
   {
     "id": "pani-chitosan-pva",
     "title": "Synthesis and Characterization of Pani-g-Chitosan/PVA Composite",
     "summary": "Conducting polymer films with DFT calculations and multi-technique characterization.",
     "category": "research",
-    "tags": ["Internship"],
+    "tags": [
+      "Internship"
+    ],
     "institution": "AIET, Moodabidri",
     "date": "07/2024",
     "guidedBy": "Dr. Ramprasadh | Head of Department of Physics, AIET, Moodbidri",
-    "coverImage": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&q=80",
+    "coverImage": "/images/projects/test.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80"
+      "/images/projects/test.png"
     ],
     "description": "Synthesized and characterized Pani-g-Chitosan/PVA conducting polymer films (50:50 Chitosan:PVA ratio) during an internship at NOEL-EFNMR Laboratory. Applied computational physics techniques through DFT calculations on the chitin molecular structure. Utilized FTIR, UV-Vis, and IV characterization techniques.",
     "highlights": [
@@ -110,6 +148,47 @@
       "FTIR, UV-Vis, and IV characterization",
       "Materials synthesis and polymer science expertise"
     ],
-    "technologies": ["DFT", "FTIR", "UV-Vis", "Gaussian", "Polymer Science"]
+    "technologies": [
+      "DFT",
+      "FTIR",
+      "UV-Vis",
+      "Gaussian",
+      "Polymer Science"
+    ],
+    "is_featured": "no"
+  },
+  {
+    "id": "metal-chalcogenide-thin-films-2",
+    "title": "Investigation on Metal Chalcogenide/Oxide Thin Films for Energy Device Applications",
+    "summary": "Engineered CdS thin films for PEC applications with experimental validation and DFT simulations.",
+    "category": "research",
+    "tags": [
+      "Thesis",
+      "Internship"
+    ],
+    "institution": "MIT Manipal",
+    "date": "10/2025",
+    "guidedBy": "Dr. Raviprakash Y | Professor, Department of Physics, MIT Manipal",
+    "coverImage": "/images/projects/test.png",
+    "gallery": [
+      "/images/projects/test.png"
+    ],
+    "description": "Engineered and optimised metal chalcogenide thin films CdS using thermal evaporation in a high-vacuum system to systematically control film thickness and doping concentration. Quantification of material suitability for Photoelectrochemical (PEC) applications through rigorous structural (XRD, SEM, UV-Vis) and electrochemical (EIS, Mott-Schottky) analysis. Validation of experimental results and prediction of charge carrier transport mechanisms by executing Density Functional Theory (DFT) simulations using the Quantum Espresso software package.",
+    "highlights": [
+      "Thermal evaporation synthesis of CdS thin films in high-vacuum system",
+      "Structural characterization via XRD, SEM, and UV-Vis spectroscopy",
+      "Electrochemical analysis using EIS and Mott-Schottky techniques",
+      "DFT simulations with Quantum Espresso for charge carrier transport"
+    ],
+    "technologies": [
+      "Quantum Espresso",
+      "DFT",
+      "XRD",
+      "SEM",
+      "EIS",
+      "PEC",
+      "Python"
+    ],
+    "is_featured": "no"
   }
 ]

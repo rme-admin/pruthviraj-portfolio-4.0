@@ -36,11 +36,7 @@ export default function Footer({ contact }: { contact: SiteSettings["contact"] }
                   </a>
                 </li>
               ))}
-              <li>
-                <Link href="/admin/login" className="text-sm text-[var(--text-muted)] hover:accent-text transition-colors">
-                  Admin
-                </Link>
-              </li>
+
             </ul>
           </div>
 

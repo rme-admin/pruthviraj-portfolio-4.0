@@ -2,7 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Send, CheckCircle, Mail, Phone, MapPin } from "lucide-react";
+import { Send, CheckCircle, AlertCircle, Mail, Phone, MapPin } from "lucide-react";
 import type { SiteSettings } from "@/types";
 import Panel from "./Panel";
 import SectionHeading from "./SectionHeading";
@@ -24,6 +24,7 @@ export default function Contact({ contact }: { contact: SiteSettings["contact"] 
   const [errors, setErrors] = useState<Partial<FormData>>({});
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [sendError, setSendError] = useState(false);
 
   const validate = (): boolean => {
     const newErrors: Partial<FormData> = {};
@@ -43,10 +44,34 @@ export default function Contact({ contact }: { contact: SiteSettings["contact"] 
     e.preventDefault();
     if (!validate()) return;
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1500));
-    setLoading(false);
-    setSubmitted(true);
-    setForm(initialForm);
+    setSendError(false);
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY,
+          name: form.name,
+          email: form.email,
+          subject: `[Portfolio] ${form.subject}`,
+          message: form.message,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        setSubmitted(true);
+        setForm(initialForm);
+      } else {
+        setSendError(true);
+      }
+    } catch {
+      setSendError(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -138,6 +163,14 @@ export default function Contact({ contact }: { contact: SiteSettings["contact"] 
                     <textarea rows={5} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className={inputCls + " resize-none"} placeholder="Your message..." />
                     {errors.message && <p className="text-red-400 text-xs mt-1">{errors.message}</p>}
                   </div>
+
+                  {sendError && (
+                    <div className="flex items-center gap-2 text-red-400 text-sm bg-red-400/10 border border-red-400/20 px-4 py-3">
+                      <AlertCircle size={16} />
+                      Failed to send. Please try again or email directly.
+                    </div>
+                  )}
+
                   <button type="submit" disabled={loading} className="btn-primary w-full justify-center disabled:opacity-60">
                     {loading ? (
                       <span className="w-4 h-4 border-2 border-[#052e16]/30 border-t-[#052e16] rounded-full animate-spin" />
