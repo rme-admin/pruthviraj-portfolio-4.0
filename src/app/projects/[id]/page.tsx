@@ -113,21 +113,43 @@ export default async function ProjectDetailPage({
                 <h2 className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--text-muted)] mb-4">
                   Project Images
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
-                  {project.gallery.map((src, i) => (
-                    <div
-                      key={i}
-                      className="relative aspect-video border border-[var(--border)] overflow-hidden"
-                    >
-                      <Image
-                        src={src}
-                        alt={`${project.title} image ${i + 1}`}
-                        fill
-                        className="object-cover hover:scale-105 transition-transform duration-500"
-                        sizes="(max-width: 768px) 100vw, 400px"
-                      />
-                    </div>
-                  ))}
+                <div className="flex gap-3 mb-10">
+                  {/* Left column — images at even indices (0, 2, 4…) */}
+                  <div className="flex-1 flex flex-col gap-3">
+                    {project.gallery
+                      .filter((_, i) => i % 2 === 0)
+                      .map((src, i) => (
+                        <div key={i} className="border border-[var(--border)] overflow-hidden">
+                          <Image
+                            src={src}
+                            alt={`${project.title} image ${i * 2 + 1}`}
+                            width={0}
+                            height={0}
+                            sizes="(max-width: 768px) 100vw, 400px"
+                            style={{ width: "100%", height: "auto" }}
+                            className="block hover:scale-105 transition-transform duration-500"
+                          />
+                        </div>
+                      ))}
+                  </div>
+                  {/* Right column — images at odd indices (1, 3…) */}
+                  <div className="flex-1 flex flex-col gap-3">
+                    {project.gallery
+                      .filter((_, i) => i % 2 !== 0)
+                      .map((src, i) => (
+                        <div key={i} className="border border-[var(--border)] overflow-hidden">
+                          <Image
+                            src={src}
+                            alt={`${project.title} image ${i * 2 + 2}`}
+                            width={0}
+                            height={0}
+                            sizes="(max-width: 768px) 100vw, 400px"
+                            style={{ width: "100%", height: "auto" }}
+                            className="block hover:scale-105 transition-transform duration-500"
+                          />
+                        </div>
+                      ))}
+                  </div>
                 </div>
               </>
             )}

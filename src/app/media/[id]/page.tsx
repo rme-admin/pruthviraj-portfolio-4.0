@@ -127,18 +127,43 @@ export default async function MediaDetailPage({
                 <h2 className="font-mono-label text-[10px] uppercase tracking-widest text-[var(--text-muted)] mb-4">
                   Gallery
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {item.gallery.map((src, i) => (
-                    <div key={i} className="relative aspect-video border border-[var(--border)] overflow-hidden">
-                      <Image
-                        src={src}
-                        alt={`${item.title} photo ${i + 1}`}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 400px"
-                      />
-                    </div>
-                  ))}
+                <div className="flex gap-3">
+                  {/* Left column — images at even indices (0, 2, 4…) */}
+                  <div className="flex-1 flex flex-col gap-3">
+                    {item.gallery
+                      .filter((_, i) => i % 2 === 0)
+                      .map((src, i) => (
+                        <div key={i} className="border border-[var(--border)] overflow-hidden">
+                          <Image
+                            src={src}
+                            alt={`${item.title} photo ${i * 2 + 1}`}
+                            width={0}
+                            height={0}
+                            sizes="(max-width: 768px) 100vw, 400px"
+                            style={{ width: "100%", height: "auto" }}
+                            className="block"
+                          />
+                        </div>
+                      ))}
+                  </div>
+                  {/* Right column — images at odd indices (1, 3…) */}
+                  <div className="flex-1 flex flex-col gap-3">
+                    {item.gallery
+                      .filter((_, i) => i % 2 !== 0)
+                      .map((src, i) => (
+                        <div key={i} className="border border-[var(--border)] overflow-hidden">
+                          <Image
+                            src={src}
+                            alt={`${item.title} photo ${i * 2 + 2}`}
+                            width={0}
+                            height={0}
+                            sizes="(max-width: 768px) 100vw, 400px"
+                            style={{ width: "100%", height: "auto" }}
+                            className="block"
+                          />
+                        </div>
+                      ))}
+                  </div>
                 </div>
               </>
             )}

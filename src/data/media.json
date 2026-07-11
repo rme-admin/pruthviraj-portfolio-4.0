@@ -1,66 +1,24 @@
 [
   {
-    "id": "lab-research-1",
-    "title": "Inside the Materials Science Lab at MIT Manipal",
-    "date": "2025",
-    "tags": ["Research", "Thin Films", "MIT Manipal"],
-    "summary": "A look inside the high-vacuum synthesis lab where metal chalcogenide thin films were engineered for photoelectrochemical applications.",
-    "content": "The materials science laboratory at MIT Manipal became my second home during my thesis work. Surrounded by vacuum chambers, XRD setups, and electrochemical workstations, the research involved synthesising CdS thin films using thermal evaporation — a meticulous process requiring precise control of film thickness and doping concentration.\n\nCharacterisation followed through XRD for structural analysis, SEM for surface morphology, and UV-Vis spectroscopy for optical band gap determination. Electrochemical behaviour was probed using EIS and Mott-Schottky techniques, enabling quantification of charge carrier density and flat band potential.\n\nComputational validation through Density Functional Theory (DFT) simulations using Quantum Espresso complemented the experimental results, bridging theory and experiment in a coherent understanding of charge transport mechanisms.",
-    "coverImage": "/images/milestones/test.png",
-    "gallery": [
-      "/images/milestones/test.png"
-    ]
-  },
-  {
-    "id": "hydrogen-energy",
-    "title": "Why I'm Betting on the Hydrogen Economy",
-    "date": "2024 — Present",
-    "tags": ["Hydrogen", "Sustainable Energy", "Research"],
-    "summary": "My journey into clean energy research and why hydrogen fuel cells represent the most compelling path to a sustainable future.",
-    "content": "The hydrogen economy is not a distant dream — it is an engineering challenge demanding interdisciplinary solutions today. My research interest in this field stems from a fundamental question: how do we store and transport clean energy at scale?\n\nPhotoelectrochemical (PEC) water splitting offers one of the most elegant answers: using sunlight directly to split water into hydrogen and oxygen. The key bottleneck is the photoelectrode material. This is precisely what drew me to metal chalcogenide thin films — their band gap tunability makes them exceptional candidates for efficient PEC devices.\n\nBeyond the lab, I use DFT simulations to model the electronic structure of candidate materials, predicting charge carrier transport before committing to expensive synthesis. The combination of experimental rigour and computational intuition is, I believe, how materials science must be practised in the 21st century.",
-    "coverImage": "/images/milestones/test.png",
-    "gallery": []
-  },
-  {
-    "id": "microscopy",
+    "id": "rgipt-a",
     "title": "Super-Resolution Microscopy: Seeing the Invisible",
     "date": "2025",
-    "tags": ["Microscopy", "SMLM", "RGIPT", "Fellowship"],
-    "summary": "My summer research fellowship at RGIPT where I developed a Python pipeline for single-molecule localization microscopy and authored an SOP for pTIRF.",
+    "tags": [
+      "Microscopy",
+      "SMS",
+      "RGIPT",
+      "Fellowship",
+      "Prism-TIRF"
+    ],
+    "summary": "My summer research fellowship at RGIPT where I developed a Python pipeline for single-molecule fluorescent microscopy and authored an SOP for pTIRF.",
     "content": "When I arrived at the RGIPT laboratory in Jais, UP, the prism-type Total Internal Reflection Fluorescence (pTIRF) microscope was already operational — but the data analysis workflow was largely manual. My goal under Dr. Debashis Panda was to build a systematic, automated pipeline.\n\nSingle-molecule localization microscopy (SMLM) works by exploiting the stochastic blinking of fluorescent molecules to reconstruct images with resolution far beyond the diffraction limit. This requires fitting each detected molecule to a 2D Gaussian function, subtracting background noise, and critically — correcting for sample drift over time.\n\nThe Python pipeline I developed handled all three stages: Gaussian fitting for precise localisation, multi-stage drift correction using cross-correlation, and final super-resolved image reconstruction. I also wrote a comprehensive standard operating procedure for the microscope, ensuring reproducible experimental conditions for future researchers.\n\nThis fellowship, awarded by the Indian Academy of Sciences (IASc-INSA-NASI), was one of the defining experiences of my graduate career.",
-    "coverImage": "/images/milestones/test.png",
+    "coverImage": "/images/milestones/rgipt-campus.jpg",
     "gallery": [
-      "/images/milestones/test.png"
+      "/images/milestones/rgipt-a.jpg",
+      "/images/milestones/rgipt-b.jpg",
+      "/images/milestones/rgipt-c.jpg",
+      "/images/milestones/rgipt-campus.jpg",
+      "/images/milestones/icraps-b.jpeg"
     ]
-  },
-  {
-    "id": "coding",
-    "title": "Building the IR INTERNSHIP Portal from Scratch",
-    "date": "2024 — Present",
-    "tags": ["Web Development", "Next.js", "NestJS", "IR INFOTECH"],
-    "summary": "From UI mockups to Vercel deployment — how I led the end-to-end development of a full-stack internship management portal at IR INFOTECH.",
-    "content": "The IR INTERNSHIP Portal began as a whiteboard sketch. The challenge was clear: build a production-grade web application that would manage the full internship lifecycle — applications, tracking, feedback, and reporting — for IR INFOTECH's growing network of interns.\n\nI chose Next.js for the frontend for its server-side rendering capabilities and developer experience, paired with NestJS on the backend for its modular architecture and TypeScript-first approach. The REST API layer was designed with clean separation of concerns, making it easy to extend as requirements evolved.\n\nDeployment was split: the frontend went to Vercel for its seamless Next.js integration and global CDN, while the backend API ran on a VPS server for maximum control. This architecture kept infrastructure costs low while maintaining high availability.\n\nWorking directly with stakeholders to translate requirements into code, and then shipping a product used by real users, was an invaluable experience in full-stack ownership.",
-    "coverImage": "/images/milestones/test.png",
-    "gallery": []
-  },
-  {
-    "id": "conference",
-    "title": "On Academic Conferences and the Art of Presenting Research",
-    "date": "2023 — 2025",
-    "tags": ["Conference", "Academic", "Research Communication"],
-    "summary": "Reflections on participating in academic conferences — what I've learned about distilling complex research into compelling narratives.",
-    "content": "Academic conferences are a peculiar kind of pressure. You have anywhere from five to twenty minutes to convince a room of experts that your work matters, your methodology is sound, and your conclusions are worth remembering.\n\nI have participated in several institutional seminars and academic conferences across materials science, hydrogen energy, and computational physics. Each experience taught me something different — about structuring arguments, handling difficult questions, and the importance of connecting technical detail to broader impact.\n\nThe most memorable moment was presenting Agrobot at SDM College, where the interdisciplinary nature of the project — spanning IoT, machine learning, and agriculture — forced me to speak to audiences with very different backgrounds simultaneously. Achieving clarity without sacrificing accuracy is a skill I continue to refine.\n\nBeyond the presentations themselves, conferences are where collaboration happens informally — over coffee, in corridor conversations, and through the shared curiosity of people working at the edges of what is known.",
-    "coverImage": "/images/milestones/test.png",
-    "gallery": []
-  },
-  {
-    "id": "team-project",
-    "title": "Lessons from Interdisciplinary Teamwork",
-    "date": "2022 — 2025",
-    "tags": ["Teamwork", "Collaboration", "Project Management"],
-    "summary": "From hardware robots to software portals — what I've learned about collaboration across disciplines and institutions.",
-    "content": "The projects that taught me the most were never the solo ones. Agrobot at SDM College required coordinating between electronics engineers, software developers, and agriculture domain experts — all of us students, all figuring it out together. We secured 3rd place in the competition, but the real prize was learning to navigate disagreement productively.\n\nAt MIT Manipal, research collaboration meant coordinating experimental schedules around shared equipment, interpreting each other's results, and building consensus on methodology. In a lab, trust is everything — you rely on your colleagues' data with the same confidence you place in your own.\n\nAt IR INFOTECH, full-stack development in a small team demanded a different kind of collaboration: Agile sprints, daily standups, and the discipline of writing code that someone else will maintain. Good software is, fundamentally, a social product.\n\nAcross all these contexts, the throughline is communication — precise, honest, and generous. It's the skill no curriculum adequately teaches.",
-    "coverImage": "/images/milestones/test.png",
-    "gallery": []
   }
 ]

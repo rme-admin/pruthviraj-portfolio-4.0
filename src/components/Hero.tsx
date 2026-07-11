@@ -104,7 +104,7 @@ export default function Hero({ hero, contact }: HeroProps) {
               </a>
               <a href="/docs/resume.pdf" className="btn-ghost">
                 <Download size={16} />
-                Resume
+                Resume  
               </a>
             </div>
           </motion.div>
