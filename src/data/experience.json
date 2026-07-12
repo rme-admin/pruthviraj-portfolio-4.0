@@ -1,9 +1,25 @@
 [
   {
+    "id": "cactus-comm",
+    "role": "Editor",
+    "company": "Cactus Communications",
+    "timeline": "06/2026 — Present",
+    "location": "Remote",
+    "category": "Freelancing",
+    "description": [
+      "Editing scientific manuscripts for clarity, grammar, and adherence to journal guidelines across Material Science, Computer Science and Biotech Domains",
+      "Formatting manuscripts for publication in various journals"
+    ],
+    "technologies": [
+      "LaTex",
+      "Microsoft Word"
+    ]
+  },
+  {
     "id": "ir-infotech-rnd",
     "role": "Research and Development Specialist",
     "company": "IR INFOTECH",
-    "timeline": "August 2024 — Present",
+    "timeline": "08/2024 — 01/2026",
     "location": "Remote",
     "category": "Part-time",
     "description": [
@@ -23,7 +39,7 @@
     "id": "iasc-summer-fellow",
     "role": "Summer Research Fellow",
     "company": "IASc-INSA-NASI Summer Research Fellowship 2025, IASc",
-    "timeline": "May 2025 — July 2025",
+    "timeline": "05/2025 — 07/2025",
     "location": "RGIPT, Jais, Uttar Pradesh",
     "category": "Internship",
     "description": [
@@ -44,7 +60,7 @@
     "id": "noel-efnmr-intern",
     "role": "Summer Research Intern",
     "company": "NOEL-EFNMR Laboratory, AIET",
-    "timeline": "May 2024 — July 2024",
+    "timeline": "05/2024 — 07/2024",
     "location": "AIET, Moodabidri, Karnataka",
     "category": "Internship",
     "description": [
@@ -64,7 +80,7 @@
     "id": "unifycx-trainee",
     "role": "Graduate Engineering Trainee",
     "company": "UnifyCX",
-    "timeline": "October 2023 — February 2024",
+    "timeline": "10/2023 — 02/2024",
     "location": "Mangaluru, Karnataka",
     "category": "Full-Time",
     "description": [

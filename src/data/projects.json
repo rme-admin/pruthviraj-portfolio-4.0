@@ -36,13 +36,16 @@
     "category": "technical",
     "tags": [
       "Award",
-      "Personal Project"
+      "IoT",
+      "Machine Learning"
     ],
     "institution": "SDM College Ujire",
     "date": "01/2023",
-    "coverImage": "/images/image-not-found.png",
+    "coverImage": "/images/projects/agrobot-a.png",
     "gallery": [
-      "/images/image-not-found.png"
+      "/images/projects/agrobot-b.jpeg",
+      "/images/projects/agrobot-c.jpeg",
+      "/images/projects/agrobot-d.jpeg"
     ],
     "description": "Developed an IoT-based agricultural robot, Agrobot, designed to monitor plant health, detect diseases using machine learning and image processing, send notifications to farmers, and automate irrigation. Additionally, Agrobot measured humidity, temperature, and pH levels of the soil. Secured 3rd place in the competition. The project was funded by SDM College, Ujire.",
     "highlights": [
@@ -66,8 +69,7 @@
     "summary": "Engineered CdS thin films for PEC applications with experimental validation and DFT simulations.",
     "category": "research",
     "tags": [
-      "Thesis",
-      "Internship"
+      "Master's Thesis"
     ],
     "institution": "MIT Manipal",
     "date": "10/2025",
@@ -102,13 +104,12 @@
     "summary": "Python pipeline for single-molecule localization microscopy with pTIRF microscope SOP.",
     "category": "research",
     "tags": [
-      "Internship",
-      "Published"
+      "Research Internship"
     ],
     "institution": "RGIPT, Jais, UP",
     "date": "09/2025",
     "guidedBy": "Dr. Debashis Panda | Associate Professor, Department of Chemistry, RGIPT",
-    "coverImage": "/images/projects/rgipt-a",
+    "coverImage": "/images/projects/rgipt-a.jpg",
     "gallery": [
       "/images/milestones/rgipt-a.jpg",
       "/images/milestones/rgipt-b.jpg",
@@ -137,7 +138,7 @@
     "summary": "Conducting polymer films with DFT calculations and multi-technique characterization.",
     "category": "research",
     "tags": [
-      "Internship"
+      "Research Internship"
     ],
     "institution": "AIET, Moodabidri",
     "date": "07/2024",
